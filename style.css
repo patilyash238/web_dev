@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: solid 1px black;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container h1{
+    text-align: center;
+}
+.res{
+    width: 25px;
+    padding: 5px;
+}
+#initial{
+    position:relative;
+    left: 80px;
+    margin-top: 10px;
+}
+button{
+    background-color: #a1a0a0;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
